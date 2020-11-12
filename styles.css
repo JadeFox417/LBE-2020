@@ -23,47 +23,47 @@
         margin: 30px auto;
     }
     
-    .mainDetails {
+    .pic {
         padding: 25px 15px;
         border-bottom: 2px solid black;
         background: #e29024;
     }
     
-    #name h1 {
+    #nama h1 {
         font-size: 2em;
         font-weight: 700;
         font-family: cursive;
         margin-bottom: -6px;
     }
     
-    #name h2 {
+    #nama h2 {
         font-size: 1.5em;
         margin-left: 2px;
         font-family: cursive;
     }
     
-    #mainArea {
-        padding: 0 40px;
+    #content {
+        padding: 0 58px;
     }
     
-    #headshot {
+    #foto {
         width: 12.5%;
         float: left;
         margin-right: 100px;
     }
     
-    #headshot img {
+    #foto img {
         width: 175%;
         height: auto;
         -webkit-border-radius: 50px;
         border-radius: 50px;
     }
     
-    #name {
+    #nama {
         float: left;
     }
     
-    #contactDetails {
+    #cp {
         float: right;
     }
     
@@ -72,39 +72,26 @@
         padding: 20px 0 0;
     }
     
-    section:first-child {
-        border-top: 0;
-    }
-    
-    section:last-child {
-        padding: 34px 0 100px;
-    }
-    
-    .sectionTitle {
+    .contentop {
         float: left;
         width: 25%;
     }
     
-    .sectionContent {
+    .contentbot {
         float: right;
-        width: 72.5%;
+        width: 70%;
     }
     
-    .sectionTitle h1 {
-        font-family: cursive;
+    .contentop h1 {
         font-style: italic;
         font-size: 1.5em;
-        color: black;
     }
     
-    .sectionContent h4 {
-        font-family: cursive;
+    .contentbot h4 {
         font-size: 1.1em;
-        margin-bottom: -2px;
     }
     
-    .subDetails {
+    .duration {
         font-size: 1em;
         font-style: italic;
-        margin-bottom: 3px;
     }
